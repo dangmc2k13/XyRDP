@@ -1,50 +1,50 @@
 {
   "active": true,
-  "hostname": "xnhau-14",
+  "hostname": "xnhau-15",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
   "os_style": "Native Windows",
   "hardware": {
-    "ram_gb": 16.0,
     "cpu_threads": 4,
-    "disk_free_gb": 76.4
+    "disk_free_gb": 80.0,
+    "ram_gb": 16.0
   },
   "rdp_port": 3389,
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-30T13:03:42Z",
-  "expires_at": "2026-10-30T18:45:42Z",
+  "started_at": "2026-10-30T18:57:46Z",
+  "expires_at": "2026-10-31T00:39:46Z",
   "duration_menit": 342,
-  "run_id": "41059955567",
+  "run_id": "41111107714",
   "run_attempt": "1",
-  "run_number": "14",
-  "run_url": "https://github.com/dangmc2k13/XyRDP/actions/runs/41059955567",
+  "run_number": "15",
+  "run_url": "https://github.com/dangmc2k13/XyRDP/actions/runs/41111107714",
   "mode": "bersih+win10",
   "storage": {
     "status": "ok",
     "mode": "boost-full",
-    "before_gb": 76.45,
-    "after_gb": 114.18,
-    "gained_gb": 37.73,
-    "removed_targets": 35,
+    "before_gb": 79.97,
+    "after_gb": 107.18,
+    "gained_gb": 27.21,
+    "removed_targets": 27,
     "drives": [
       {
-        "letter": "C",
         "size_gb": 255.45,
-        "free_gb": 114.18,
-        "used_gb": 141.27
+        "letter": "C",
+        "free_gb": 107.18,
+        "used_gb": 148.27
       },
       {
+        "size_gb": 150.0,
         "letter": "D",
-        "size_gb": 219.98,
-        "free_gb": 219.86,
-        "used_gb": 0.13
+        "free_gb": 147.0,
+        "used_gb": 3.0
       }
     ],
     "game_dir": "D:\\Games (disarankan untuk GTA)",
     "note": "Cleanup selesai. gained_gb adalah perubahan ruang aktual, bukan kapasitas yang dijanjikan. Target terkunci bisa tersisa.",
-    "updated_at": "2026-10-30T13:12:51.1454044Z"
+    "updated_at": "2026-10-30T19:09:29.6127628Z"
   },
   "fps_boost": {
     "status": "ok",
@@ -59,9 +59,9 @@
     ],
     "skipped": [],
     "applied_count": 7,
-    "elapsed_sec": 1.2,
+    "elapsed_sec": 1.3,
     "note": "Tweak rendering RDP & scheduler OS. Tidak menaikkan FPS game 3D tanpa GPU fisik; Mesa3D/WARP tetap dipakai.",
-    "updated_at": "2026-10-30T13:12:52.6507041Z"
+    "updated_at": "2026-10-30T19:09:31.3650048Z"
   },
   "win10": {
     "look": "ok",
@@ -72,15 +72,15 @@
     "note": "Tampilan Windows 10 (UI Windows Server 2022 = kernel/UI Windows 10 21H2)"
   },
   "media": {
-    "audio_output": "rdp_playback_enabled",
-    "wallpaper": "xyverse_configured_for_user_logon",
     "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
+    "wallpaper": "xyverse_configured_for_user_logon",
+    "audio_output": "rdp_playback_enabled",
     "microphone": "rdp_capture_enabled"
   },
   "samp_antiban": {
     "status": "ok",
-    "machine_guid_prefix": "97233b9e",
-    "player_name": "XyPlayer_8181",
+    "machine_guid_prefix": "20d33047",
+    "player_name": "XyPlayer_3140",
     "steps": [
       "MachineGuid / ProductId / HwProfileGuid baru",
       "PlayerName SAMP & path gta_sa.exe untuk semua profil",
@@ -88,48 +88,48 @@
     ],
     "errors": [],
     "note": "GPCI/HWID direset. Tidak menjamin bebas ban bila IP datacenter tetap terdeteksi server; WARP split-tunnel bisa dipilih manual di Control Center.",
-    "updated_at": "2026-10-30T13:13:11.0521861Z"
+    "updated_at": "2026-10-30T19:10:02.9428864Z"
   },
   "grafis": {
-    "mode": "software",
+    "vulkan": "lavapipe 1.3 (CPU)",
     "path": "C:\\XyRDP\\grafis\\mesa-x64",
-    "adapters": "Microsoft Hyper-V Video",
-    "opengl": "4.6 (Mesa llvmpipe system-wide x64/x86 + OpenGL ES 3.2)",
     "mesa": "26.2.5",
-    "vulkan": "lavapipe 1.3 (CPU)"
+    "opengl": "4.6 (Mesa llvmpipe system-wide x64/x86 + OpenGL ES 3.2)",
+    "adapters": "Microsoft Hyper-V Video",
+    "mode": "software"
   },
   "games": {
     "memu": {
-      "status": "ready",
-      "launcher": "C:\\Games\\MEmu\\Launch-MEmu.ps1"
+      "launcher": "C:\\Games\\MEmu\\Launch-MEmu.ps1",
+      "status": "ready"
     },
     "ets2": {
-      "status": "ready",
-      "launcher": "C:\\Games\\ETS2\\Launch-ETS2-Free.ps1"
-    },
-    "minecraft_java": {
-      "opengl46": true,
-      "tlauncher_jar": true,
-      "status": "ready",
-      "official_exe": true,
-      "prismlauncher": true
+      "launcher": "C:\\Games\\ETS2\\Launch-ETS2-Free.ps1",
+      "status": "ready"
     },
     "blender": {
-      "status": "ready",
-      "launcher": "C:\\Games\\Blender\\Launch-Blender.ps1"
+      "launcher": "C:\\Games\\Blender\\Launch-Blender.ps1",
+      "status": "ready"
     },
-    "roblox": {
-      "status": "ready-antivm",
-      "launcher": "C:\\Games\\Roblox\\Launch-Roblox-AntiVM.ps1"
+    "minecraft_java": {
+      "official_exe": true,
+      "tlauncher_jar": true,
+      "opengl46": true,
+      "prismlauncher": true,
+      "status": "ready"
     },
     "fivem": {
       "status": true,
       "sound": true
+    },
+    "roblox": {
+      "launcher": "C:\\Games\\Roblox\\Launch-Roblox-AntiVM.ps1",
+      "status": "ready-antivm"
     }
   },
   "tools_hub": {
-    "auto_start": true,
     "exe": "C:\\XyRDP\\tools\\XyDeskDashboard.exe",
+    "auto_start": true,
     "installed": true
   },
   "xydesk": {
@@ -151,21 +151,21 @@
   },
   "akses": {
     "tunnel": {
-      "selftest": "ok",
       "outside": "tailscale",
-      "port": 3389,
+      "address": "100.92.254.19:3389",
       "status": "ok",
-      "host": "100.114.35.124",
-      "address": "100.114.35.124:3389"
+      "selftest": "ok",
+      "host": "100.92.254.19",
+      "port": 3389
     },
-    "mode": "tailscale",
     "tailscale": {
+      "ip": "100.92.254.19",
+      "magicdns": "xnhau.taildd40c2.ts.net.",
       "status": "ok",
-      "ip": "100.114.35.124",
       "hostname": "Xnhau",
-      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
-      "magicdns": "xnhau.taildd40c2.ts.net."
-    }
+      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL."
+    },
+    "mode": "tailscale"
   },
   "extras": {
     "discord": "ok"
